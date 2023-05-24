@@ -1,0 +1,23 @@
+<header class="shadow">
+    <nav class="navbar navbar-expand-lg navbar-light main-navigation">
+        <a href="/" class="navbar-brand ">
+            <h1 class="display-4" id="app-title">KnowledgeHub</h1>
+        </a>
+        <div class="burger-button" id="drawerButton">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </div>
+        <div class="drawer-container">
+            <div class="drawer">
+                <a class="btn p-2 mr-1 rounded nav-btn" href="/">Home</a>
+                <a class="btn p-2 mr-1 rounded nav-btn logged-in" href="/hotQuestions">What is hot today?</a>
+                <a class="btn p-2 mr-1 rounded nav-btn logged-in" href="/myQuestions">What I don't know?</a>
+                <a class="btn p-2 mr-1 rounded nav-btn not-logged-in" href="/auth/login">Log in</a>
+                <a class="btn p-2 mr-1 rounded nav-btn logged-in" href="/myProfile">Who am I ?</a>
+                <a class="btn p-2 mr-1 rounded nav-btn logged-in" id="logout-btn" href="/">Log out</a>
+                <a class="btn p-2 mr-1 rounded nav-btn not-logged-in" href="/auth/register">Register</a>
+            </div>
+        </div>
+    </nav>
+</header>

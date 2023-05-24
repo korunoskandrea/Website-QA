@@ -1,0 +1,42 @@
+<button class="btn btn-circle fab logged-in">
+    <span class="fab-child">+</span>
+</button>
+<div class="overlay">
+    <div class="card create-question">
+        <div class="card-header">
+            <h4 class="question-header">Ask something ...</h4>
+        </div>
+        <div class="question-title">
+            <label for="title">Title: </label>
+            <input required type="text" class="form-control" id="title" placeholder="Title of your question...">
+        </div>
+        <div class="question-description">
+            <label for="description">Write what do you want to know: </label>
+            <input required type="text" class="form-control" id="q-description" placeholder="Describe...">
+        </div>
+        <div class="question-labels">
+            <label for="question-label">Label your question</label><br>
+            <div class="form-group selected-items bg-light">
+                <button type="button" class="btn btn-light select-add-btn" id="show-label-popup">+</button>
+                <div class="selected-items-list">
+                </div>
+            </div>
+        </div>
+        <div class="question-footer">
+            <button type="submit" name="submit" id="create-question-btn" value="Post">Post</button>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="popup-dialog" >-->
+<!--    <div class="dialog-content card">-->
+<!--        <h2 class="card-header">Labels</h2>-->
+<!--        <div class="card-body">-->
+<!--            <button  class="select-btn btn btn-outline-dark">  </button>-->
+<!--        </div>-->
+<!--        <div class="card-footer">-->
+<!--            <button class="btn btn-success popup-add-btn" >Add New Label </button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
